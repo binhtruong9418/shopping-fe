@@ -1,0 +1,670 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: #01221D;
+}
+
+/* =================================elm_all_page========================= */
+.input_elm {
+  border: 1px solid #8991a4;
+  border-radius: 16px;
+  padding: 0px 65px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.btn_elm {
+  border-radius: 16px;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-24 {
+  width: 24%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-47 {
+  width: 47%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.mx-20 {
+  margin: 0px 20px;
+}
+
+/* .mx-100 {
+    margin: 0px 100px;
+} */
+
+.mx-50 {
+  margin: 0px 50px;
+}
+
+.title_section {
+  color: #01040d;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.title_elm {
+  color: #01040d;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.title_itemDropdown {
+  color: #01040d;
+  font-size: 15px;
+  /* font-weight: 600; */
+}
+
+.size_container_elm {
+  max-width: 573px;
+  margin: 0 auto;
+}
+
+.d-none {
+  display: none;
+}
+
+.productOrder {
+  box-shadow: 0px 4px 30px 0px #1b19561a;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.boxPlus {
+  background: #07bfa5;
+  border-radius: 42px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 43%;
+}
+
+.menu_reponsive {
+  display: none;
+}
+
+.menu_reponsive_topBar {
+  display: none;
+}
+
+/* =======================breadcrumb======================== */
+.breadcrumb {
+  background: #f4f5f6;
+}
+
+/* ==============================SignIn=============================== */
+#SignIn {
+  background-image: url("../../public/img/backgroundLogin.png");
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+}
+
+#SignIn .header_SignIn {
+  padding: 50px 0px;
+}
+
+#SignIn .header_SignIn svg {
+  margin: 0 auto;
+}
+
+#SignIn .main_SignIn {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 10px 20px 0px #0000001a;
+  max-width: 50%;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+#SignIn .main_SignIn .content_SignIn {
+  padding: 80px 50px;
+}
+
+#SignIn .main_SignIn .content_SignIn .input_SignIn {
+  width: 100%;
+  height: 52px;
+}
+
+#SignIn .main_SignIn .content_SignIn .icon_Ip_SignIn {
+  position: absolute;
+  top: 47px;
+  left: 27px;
+}
+
+#SignIn .main_SignIn .content_SignIn .btn_SignIn {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background: #07bfa5;
+  width: 100%;
+  height: 64px;
+}
+
+#SignIn .footer_SignIn .social_icon .box_social_icon {
+  background: #1a3834;
+  width: 44px;
+  height: 44px;
+  margin: 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+/* ==============================Header================================ */
+#header {
+  background-image: url("../../public/img/backgroundLogin.png");
+  background-size: contain;
+  padding: 20px 0px;
+}
+
+/* =================================HomePage================================= */
+#homePage .categories .box_categories {
+  margin-top: 20px;
+}
+
+#homePage .flashSale .box_flashSale {
+  position: relative;
+}
+
+#homePage .flashSale .box_flashSale .box-discount {
+  background: #ff6264;
+  border-radius: 4px;
+}
+
+#homePage .newsletter {
+  background: #f5b3a5;
+  margin-top: 150px;
+}
+
+/* ===============================order============================== */
+
+#order .moreProducts {
+  padding: 20px 0px;
+  margin: 20px 0px;
+  border-top: 1px solid #f4f5f6;
+  border-bottom: 1px solid #f4f5f6;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #01221d;
+}
+
+.boxTracking {
+  background: #01221d;
+  box-shadow: 0px 10px 20px 0px #0000001a;
+  border-radius: 24px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* =============================SearchProduct============================ */
+#SearchProduct .sideBar {
+  box-shadow: 0px 4px 30px 0px #1b19561a;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+#SearchProduct .box-title-sidebar {
+  color: #01040d;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#SearchProduct .content-box-product .box__product {
+  box-shadow: 0px 4px 30px 0px #1b19561a;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+#SearchProduct .content-box-product .box__product .discount {
+  background: #ff6264;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 12px;
+}
+
+#SearchProduct {
+  position: relative;
+}
+
+/* =================================Modal css======================= */
+.profile_avt {
+  margin-top: -50px;
+}
+
+.tabsPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabsPage li {
+  display: block;
+  padding: 10px 23px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
+.tabsPage li.active {
+  background: #1c12db;
+  color: #fff;
+}
+
+.tab_content {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+/* ============================shop================================ */
+#AllShop .product_box {
+  box-shadow: 0px 4px 30px 0px #1b19561a;
+  padding: 25px;
+  border-radius: 16px;
+  position: relative;
+}
+
+/* ==============================CART========================================== */
+#cart {
+  padding: 100px 0px;
+}
+
+#cart .box-cart {
+  box-shadow: 0px 4px 30px 0px #1b19561a;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+#cart .order_summary {
+  background: #f9fafb;
+  border-radius: 16px;
+  padding: 32px 40px;
+  margin: 20px auto;
+  width: 100%;
+}
+
+#cart .line_cart {
+  border: 1px solid #01040d;
+  color: #01040d;
+  margin-top: 16px;
+}
+
+/* =============================reponsive================================= */
+
+@media (min-width: 1200px) {
+  .logo_page {
+    font-size: 24px;
+  }
+}
+
+/* Quy tắc cho màn hình có kích thước từ 992px đến 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .search_header {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_top {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .logo_page {
+    margin-bottom: 20px;
+  }
+
+  .search_header {
+    width: 100%;
+  }
+
+  .account {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .account button {
+    width: 100%;
+  }
+
+  .topBar {
+    display: none;
+  }
+
+  .menu_reponsive {
+    display: block;
+    position: absolute;
+    right: 0;
+    background: #fff;
+  }
+
+  .account_rps {
+    margin-top: 10px;
+  }
+
+  .menu_reponsive_topBar {
+    display: block;
+  }
+
+  .tabs_reponsive {
+    flex-wrap: wrap;
+  }
+
+  #SignIn .main_SignIn {
+    max-width: 75%;
+  }
+}
+
+/* Quy tắc cho màn hình có kích thước nhỏ hơn hoặc bằng 576px */
+@media (max-width: 576px) {
+  .account {
+    display: none;
+  }
+  #SignIn .main_SignIn {
+    max-width: 85%;
+  }
+  #SignIn .main_SignIn .content_SignIn {
+    padding: 40px 25px;
+  }
+}
+
+.products-filter-btn {
+  border-radius: 16px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 1px solid #111;
+}
+
+.products-filter-btn.active {
+  background: #111;
+  color: #fff;
+}
+
+.orders-filter {
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.orders-filter.active {
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  /*margin: 0 10px;*/
+}
+
+.postDate {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.postCenter {
+  margin: 20px 0;
+}
+
+.postImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.likeIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.postLikeCounter {
+  font-size: 15px;
+}
+
+.postCommentText {
+  cursor: pointer;
+  border-bottom: 1px dashed gray;
+  font-size: 15px;
+}
+
+.postDesc {
+  margin-bottom: 20px;
+}
+
+.feed {
+  flex: 5.5;
+}
+
+.feedWrapper {
+  padding: 20px;
+}
+
+
+/* ================reponsive===================== */
+@media screen and (max-width: 992px) {
+  .Sidepanel {
+    display: none;
+  }
+
+  .openbtn {
+    display: block !important;
+  }
+}
+
+.sidepanel {
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+#mySidepanel {
+  height: 100%;
+  background: #fff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+  z-index: 0;
+}
+
+#mySidepanel {
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.title--filter {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.title--categories {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+
+.content--sidepane {
+  padding: 60px;
+}
+
+.openbtn {
+  display: none;
+}
